@@ -1,4 +1,4 @@
-@import url(css/reset.css);
+@import url('reset.css');
 
 @font-face {
 	font-family: 'Roboto';
@@ -126,14 +126,14 @@ body{
     gap: 30px;
 }
 .about-item {
-    width: 270px;
+    flex: 1 1 25%;
 }
 .about-item-title {
-    margin: 10px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .about-item-discript {
-    margin: 10px;
+    margin: 10px 0 0;
     line-height: 24px;
     color: #757575;
 }
@@ -149,10 +149,16 @@ body{
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.do-img {
+.do-imgs {
     display: flex;
     gap: 30px;
 }
+.do-img {
+    flex: 1 1 25%;
+    height: 290px;
+    object-fit: cover;
+}
+
 
 /* TEAM SECTION */
 
@@ -217,6 +223,7 @@ body{
     line-height: 24px;
     font-weight: 400;
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
 }
 .footer-info a{
