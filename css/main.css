@@ -214,6 +214,8 @@ body{
     padding: 20px 0 0;
     color: #FFFFFF;
     display: flex;
+    line-height: 24px;
+    font-weight: 400;
     flex-direction: column;
     gap: 10px;
 }
