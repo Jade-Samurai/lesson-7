@@ -34,7 +34,9 @@
 
 /* GLOBAL */
 body{
+    background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     line-height: 1.3;
     color: #212121;
 }
@@ -55,9 +57,6 @@ body{
     display: flex;
     align-items: center;
     
-}
-.header-logo{
-
 }
 
 .header-menu{
@@ -117,7 +116,43 @@ body{
     cursor: pointer;
     align-self: center;
 }
+/* ABOUT SECTION */
 
+.about {
+    padding: 95px 0;
+}
+.about-items {
+    display: flex;
+    gap: 30px;
+}
+.about-item {
+    width: 270px;
+}
+.about-item-title {
+    margin: 10px;
+    text-transform: uppercase;
+}
+.about-item-discript {
+    margin: 10px;
+    line-height: 24px;
+    color: #757575;
+}
+/* DO SECTION */
+
+.do {
+    text-align: center;
+    padding: 0 0 95px ;
+}
+.do-title {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.do-img {
+    display: flex;
+    gap: 30px;
+}
 
 /* TEAM SECTION */
 
@@ -165,4 +200,27 @@ body{
 .team-card-description {
     color: #757575;
     margin-top: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #2F303A;
+}
+.footer-box {
+    padding: 60px 0;
+}
+.footer-info {
+    padding: 20px 0 0;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-info a{
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+.address{
+    margin: 0;
 }
